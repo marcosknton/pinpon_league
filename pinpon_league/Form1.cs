@@ -328,6 +328,7 @@ namespace pinpon_league
             await child.DeleteAsync();
         }
 
+       
     }
    
 }

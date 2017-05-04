@@ -15,6 +15,10 @@ public class Partido
     public String Ganador;
 
 
+    public Partido()
+    {
+
+    }
 
     public Partido(String njugador1,String njugador2,String idjugador1,String idjugador2,int puntuacion1,int puntuacion2)
 	{

@@ -117,4 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>Seleccionamos el nombre del jugador a eliminar.
+El jugador elegido saldrá reflejado en el campo nombre, bajo ELIMINAR JUGADOR.
+Pulsamos eliminar y lo eliminaremos tanto de la base de datos como de nuestra lista. </value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Completamos los campos del jugador:
+Nombre , estará compuesto por su nombre, primer apellido y segundo apellido.
+Puntos, al inicio de la liga todos los jugadores empezarán con 0 puntos ,así que colocamos 0.
+Cantidad de partidos, al inicio de la liga todos los jugadores empezarán con 0 partidos jugados ,así que colocamos 0
+Foto, colocamos la ruta absoluta del archivo de la foto (nos servirá para localizar el archivo pero no para visualiarlo)
+
+Pulsamos crear jugador para añadirlo a nuestra base de datos.
+Pulsamos cargar jugador para actualizar la lista con los jugadores añadidos.
+Cuando tengamos la lista completa, pulsamos cerrar la lista, añadirá a nuestra base de datos los encuentros a disputar.</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Para modificar los resultados, clicamos sobre el jugador1 de la fila que querramos actualizar los resultados. 
+Modificamos el resultado en el campo  jugador1 y  jugador 2. 
+Pulsamos  modificar resultado.
+Los datos se actualizarán tanto la pestaña liga, como en la pestaña jugadores.</value>
+  </data>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>Cada partido ganado són 3 puntos que sumará el jugador ganador del partido.
+Al final de disputar todos los partidos, La liga la ganará quien más puntos tenga.
+En caso de empate a puntos de 2 jugadores se disputará un partido final que decida quien será el campeón de la liga.
+En caso de empate a puntos de más de 2 jugadores se disputará una nueva liga, ganará el jugador que más puntos tenga ,en caso de empate se disputará un partido final. </value>
+  </data>
 </root>

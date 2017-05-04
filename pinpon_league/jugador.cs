@@ -17,5 +17,10 @@ public class Jugador
         Puntos = puntos;
         Num_partidos = num_partidos;
     }
+
+    public Jugador()
+    {
+
+    }
     
 }

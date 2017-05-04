@@ -8,6 +8,13 @@ public class Liga
     private List<Partido> Partidos;
 
     public int getnombre { get; }
+    public List<Jugador> getListaJugadors { get; }
+    public List<Partido> getListaPartits { get; }
+
+    public Liga()
+    {
+
+    }
 
     public Liga(String nombre)
 	{
